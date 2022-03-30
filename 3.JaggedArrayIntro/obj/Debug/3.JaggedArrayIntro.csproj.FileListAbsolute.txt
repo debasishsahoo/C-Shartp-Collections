@@ -1,0 +1,8 @@
+D:\.netprojects\CollectionsIntro\3.JaggedArrayIntro\bin\Debug\3.JaggedArrayIntro.exe.config
+D:\.netprojects\CollectionsIntro\3.JaggedArrayIntro\bin\Debug\3.JaggedArrayIntro.exe
+D:\.netprojects\CollectionsIntro\3.JaggedArrayIntro\bin\Debug\3.JaggedArrayIntro.pdb
+D:\.netprojects\CollectionsIntro\3.JaggedArrayIntro\obj\Debug\3.JaggedArrayIntro.csproj.AssemblyReference.cache
+D:\.netprojects\CollectionsIntro\3.JaggedArrayIntro\obj\Debug\3.JaggedArrayIntro.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\CollectionsIntro\3.JaggedArrayIntro\obj\Debug\3.JaggedArrayIntro.csproj.CoreCompileInputs.cache
+D:\.netprojects\CollectionsIntro\3.JaggedArrayIntro\obj\Debug\3.JaggedArrayIntro.exe
+D:\.netprojects\CollectionsIntro\3.JaggedArrayIntro\obj\Debug\3.JaggedArrayIntro.pdb

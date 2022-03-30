@@ -1,0 +1,7 @@
+D:\.netprojects\CollectionsIntro\2.2DArray\bin\Debug\2.2DArray.exe.config
+D:\.netprojects\CollectionsIntro\2.2DArray\bin\Debug\2.2DArray.exe
+D:\.netprojects\CollectionsIntro\2.2DArray\bin\Debug\2.2DArray.pdb
+D:\.netprojects\CollectionsIntro\2.2DArray\obj\Debug\2.2DArray.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\CollectionsIntro\2.2DArray\obj\Debug\2.2DArray.csproj.CoreCompileInputs.cache
+D:\.netprojects\CollectionsIntro\2.2DArray\obj\Debug\2.2DArray.exe
+D:\.netprojects\CollectionsIntro\2.2DArray\obj\Debug\2.2DArray.pdb

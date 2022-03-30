@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cfd00a4a-fa60-4c8d-b03e-5a62b1bbadfe": {
+      "ProjectGuid": "cfd00a4a-fa60-4c8d-b03e-5a62b1bbadfe",
+      "DisplayName": "CollectionsIntro",
+      "ColorIndex": 0
+    },
+    "386ea104-e34e-4dcb-b9b2-3cd82cfa2b58": {
+      "ProjectGuid": "386ea104-e34e-4dcb-b9b2-3cd82cfa2b58",
+      "DisplayName": "2.2DArray",
+      "ColorIndex": 1
+    },
+    "0838c697-8942-4296-bb29-76411ebf085e": {
+      "ProjectGuid": "0838c697-8942-4296-bb29-76411ebf085e",
+      "DisplayName": "3.JaggedArrayIntro",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
