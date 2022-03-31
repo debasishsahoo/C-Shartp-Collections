@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.2DArray", "2.2DArray\2.2D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.JaggedArrayIntro", "3.JaggedArrayIntro\3.JaggedArrayIntro.csproj", "{0838C697-8942-4296-BB29-76411EBF085E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Collections", "4.Collections\4.Collections.csproj", "{B2BBC94A-E789-4B76-925E-9AE856925498}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0838C697-8942-4296-BB29-76411EBF085E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0838C697-8942-4296-BB29-76411EBF085E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0838C697-8942-4296-BB29-76411EBF085E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2BBC94A-E789-4B76-925E-9AE856925498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BBC94A-E789-4B76-925E-9AE856925498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BBC94A-E789-4B76-925E-9AE856925498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BBC94A-E789-4B76-925E-9AE856925498}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

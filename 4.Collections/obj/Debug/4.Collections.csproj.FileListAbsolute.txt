@@ -1,0 +1,8 @@
+D:\.netprojects\CollectionsIntro\4.Collections\bin\Debug\4.Collections.exe.config
+D:\.netprojects\CollectionsIntro\4.Collections\bin\Debug\4.Collections.exe
+D:\.netprojects\CollectionsIntro\4.Collections\bin\Debug\4.Collections.pdb
+D:\.netprojects\CollectionsIntro\4.Collections\obj\Debug\4.Collections.csproj.AssemblyReference.cache
+D:\.netprojects\CollectionsIntro\4.Collections\obj\Debug\4.Collections.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\CollectionsIntro\4.Collections\obj\Debug\4.Collections.csproj.CoreCompileInputs.cache
+D:\.netprojects\CollectionsIntro\4.Collections\obj\Debug\4.Collections.exe
+D:\.netprojects\CollectionsIntro\4.Collections\obj\Debug\4.Collections.pdb

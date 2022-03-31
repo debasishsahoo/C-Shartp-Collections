@@ -50,12 +50,15 @@ namespace CollectionsIntro
                 Console.Write(i + " ");
             }
             Console.WriteLine();
+
             //Methods we have in Array
             //Sort(<Array>)
             //Reverse(<Array>)
             //Copy(src,dest,n)
             //GetLength(int)
             //Length()
+
+
             int[] arr2 = { 17, 12, 45, 28, 10, 5, 7, 2, 91,0 };
 
             for(int i=0;i<arr2.Length;i++)
