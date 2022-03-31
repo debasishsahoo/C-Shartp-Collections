@@ -132,41 +132,77 @@ namespace _4.Collections
             //Console.WriteLine("is Abir Value  Exist:" + hashtable.ContainsValue("Abir"));
 
 
-            Stack S= new Stack();
+//            Stack S= new Stack();
 
-            S.Push(10);
-            S.Push("Kunden");
-            S.Push(3.14f);
-            S.Push(true);
-            S.Push(67.1f);
-            S.Push('A');
+//            S.Push(10);
+//            S.Push("Kunden");
+//            S.Push(3.14f);
+//            S.Push(true);
+//            S.Push(67.1f);
+//            S.Push('A');
 
-            foreach(object obj in S)
+//            foreach(object obj in S)
+//            {
+//                Console.WriteLine(obj + " ");
+//            }
+//            Console.WriteLine("-------------------------");
+
+//            Console.WriteLine(S.Pop());
+
+//            Console.WriteLine("--------------------------");
+
+//            foreach(object obj in S)
+//            {
+//                Console.WriteLine(obj+" ");
+//            }
+//            Console.WriteLine("-------------------------");
+
+//            Console.WriteLine(S.Peek());
+
+//            Console.WriteLine("--------------------------");
+
+//Console.WriteLine($"No of Element in the Collections:{S.Count}");
+//Console.WriteLine($"Value present in Collections:{S.Contains("Kunden")}");
+
+//            S.Clear();
+
+//            Console.WriteLine($"No of Element in the Collections after Clear Method :{S.Count}");
+
+            Queue queue = new Queue();
+
+            queue.Enqueue(10);
+            queue.Enqueue("Deb");
+            queue.Enqueue('A');
+            queue.Enqueue(3.14f);
+            queue.Enqueue(true);
+            queue.Enqueue(67.8);
+
+            foreach (object obj in queue)
             {
                 Console.WriteLine(obj + " ");
             }
-            Console.WriteLine("-------------------------");
+            Console.WriteLine();
 
-            Console.WriteLine(S.Pop());
+            Console.WriteLine(queue.Dequeue());
+            Console.WriteLine(queue.Peek());
+            Console.WriteLine(queue.Count);
+            Console.WriteLine(queue.Contains("Deb"));
+            queue.Clear();
+            Console.WriteLine(queue.Count);
 
-            Console.WriteLine("--------------------------");
+            Console.WriteLine();
 
-            foreach(object obj in S)
-            {
-                Console.WriteLine(obj+" ");
-            }
-            Console.WriteLine("-------------------------");
 
-            Console.WriteLine(S.Peek());
 
-            Console.WriteLine("--------------------------");
 
-Console.WriteLine($"No of Element in the Collections:{S.Count}");
-Console.WriteLine($"Value present in Collections:{S.Contains("Kunden")}");
 
-            S.Clear();
 
-            Console.WriteLine($"No of Element in the Collections after Clear Method :{S.Count}");
+
+
+
+
+
+
 
 
 
