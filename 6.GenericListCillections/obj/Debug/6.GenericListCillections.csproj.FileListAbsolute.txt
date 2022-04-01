@@ -1,0 +1,8 @@
+D:\.netprojects\CollectionsIntro\6.GenericListCillections\bin\Debug\6.GenericListCillections.exe.config
+D:\.netprojects\CollectionsIntro\6.GenericListCillections\bin\Debug\6.GenericListCillections.exe
+D:\.netprojects\CollectionsIntro\6.GenericListCillections\bin\Debug\6.GenericListCillections.pdb
+D:\.netprojects\CollectionsIntro\6.GenericListCillections\obj\Debug\6.GenericListCillections.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\CollectionsIntro\6.GenericListCillections\obj\Debug\6.GenericListCillections.csproj.CoreCompileInputs.cache
+D:\.netprojects\CollectionsIntro\6.GenericListCillections\obj\Debug\6.GenericListCillections.exe
+D:\.netprojects\CollectionsIntro\6.GenericListCillections\obj\Debug\6.GenericListCillections.pdb
+D:\.netprojects\CollectionsIntro\6.GenericListCillections\obj\Debug\6.GenericListCillections.csproj.AssemblyReference.cache

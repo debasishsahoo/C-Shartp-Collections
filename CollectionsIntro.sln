@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Collections", "4.Collecti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.Generic_Collections", "5.Generic_Collections\5.Generic_Collections.csproj", "{F775658A-C9BB-49CC-84A3-04B89F0AE459}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.GenericListCillections", "6.GenericListCillections\6.GenericListCillections.csproj", "{DFCFC174-5400-4ED3-B6CD-E5E4CA3F2E81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F775658A-C9BB-49CC-84A3-04B89F0AE459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F775658A-C9BB-49CC-84A3-04B89F0AE459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F775658A-C9BB-49CC-84A3-04B89F0AE459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFCFC174-5400-4ED3-B6CD-E5E4CA3F2E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFCFC174-5400-4ED3-B6CD-E5E4CA3F2E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFCFC174-5400-4ED3-B6CD-E5E4CA3F2E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFCFC174-5400-4ED3-B6CD-E5E4CA3F2E81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

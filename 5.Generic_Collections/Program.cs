@@ -122,6 +122,11 @@ namespace _5.Generic_Collections
 
             int v=a.genMethod(200);
 
+
+            MyGenClass<string> b = new MyGenClass<string>("Deb");
+
+            string w = b.genMethod("Sahoo");
+
             Console.ReadKey();
         }
     }
