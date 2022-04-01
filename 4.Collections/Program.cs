@@ -97,7 +97,7 @@ namespace _4.Collections
 
 
 
-            Hashtable hashtable = new Hashtable();
+            //Hashtable hashtable = new Hashtable();
 
             //hashtable.Add("ID",1002);
             //hashtable.Add(hashtable["ID"], "Kundan");
@@ -168,29 +168,46 @@ namespace _4.Collections
 
 //            Console.WriteLine($"No of Element in the Collections after Clear Method :{S.Count}");
 
-            Queue queue = new Queue();
+            //Queue queue = new Queue();
+            //queue.Enqueue(10);
+            //queue.Enqueue("Deb");
+            //queue.Enqueue('A');
+            //queue.Enqueue(3.14f);
+            //queue.Enqueue(true);
+            //queue.Enqueue(67.8);
 
-            queue.Enqueue(10);
-            queue.Enqueue("Deb");
-            queue.Enqueue('A');
-            queue.Enqueue(3.14f);
-            queue.Enqueue(true);
-            queue.Enqueue(67.8);
+            //foreach (object obj in queue)
+            //{
+            //    Console.WriteLine(obj + " ");
+            //}
+            //Console.WriteLine();
 
-            foreach (object obj in queue)
-            {
-                Console.WriteLine(obj + " ");
-            }
-            Console.WriteLine();
+            //Console.WriteLine(queue.Dequeue());
+            //Console.WriteLine(queue.Peek());
+            //Console.WriteLine(queue.Count);
+            //Console.WriteLine(queue.Contains("Deb"));
+            //queue.Clear();
+            //Console.WriteLine(queue.Count);
 
-            Console.WriteLine(queue.Dequeue());
-            Console.WriteLine(queue.Peek());
-            Console.WriteLine(queue.Count);
-            Console.WriteLine(queue.Contains("Deb"));
-            queue.Clear();
-            Console.WriteLine(queue.Count);
+            //Console.WriteLine();
 
-            Console.WriteLine();
+
+            //Stack S = new Stack();
+            //Queue queue = new Queue();
+            //Hashtable hashtable = new Hashtable();
+            //ArrayList A1 = new ArrayList();
+
+
+            int a = 23;
+            Object obj = a; //Boxing        //implicit Typecast
+            a = 1500;
+            Console.WriteLine(a);//1500
+            Console.WriteLine(obj);//23
+
+
+            int b = 1120;
+            Object obj2 = b;
+            int c = (int)obj2;//Unboxing     //Explicit TypeCast 
 
 
 
