@@ -82,6 +82,50 @@ namespace _6.GenericListCillections
                 Gender = "Male",
                 Salary = 92000000
             };
+            Employee emp5 = new Employee()
+            {
+                Id = 5,
+                Name = "Poly",
+                Gender = "Male",
+                Salary = 92000000
+            };
+            Employee emp6 = new Employee()
+            {
+                Id = 6,
+                Name = "Saikat",
+                Gender = "Male",
+                Salary = 92000000
+            };
+            Employee emp7 = new Employee()
+            {
+                Id = 7,
+                Name = "Amrita",
+                Gender = "FeMale",
+                Salary = 92000000
+            };
+            Employee emp8 = new Employee()
+            {
+                Id = 8,
+                Name = "ASIF",
+                Gender = "Male",
+                Salary = 92000000
+            };
+            Employee emp9 = new Employee()
+            {
+                Id = 9,
+                Name = "RIZ",
+                Gender = "Male",
+                Salary = 92000000
+            };
+            Employee emp10 = new Employee()
+            {
+                Id = 10,
+                Name = "Arnab",
+                Gender = "Male",
+                Salary = 92000000
+            };
+
+
 
             List<Employee> ListOfEmployee = new List<Employee>();
 
@@ -89,6 +133,15 @@ namespace _6.GenericListCillections
             ListOfEmployee.Add(emp2);
             ListOfEmployee.Add(emp3);
             ListOfEmployee.Add(emp4);
+
+
+
+
+
+
+
+
+
 
             //foreach (Employee e in ListOfEmployee)
             //{
@@ -132,42 +185,198 @@ namespace _6.GenericListCillections
             //    Console.WriteLine("No Emp is not there");
             //}
 
-            Employee emp;
+            //         Employee emp;
 
-            emp = ListOfEmployee.Find(kundan=> kundan.Gender=="Male");
+            //         emp = ListOfEmployee.Find(kundan=> kundan.Gender=="Male");
 
-            if (emp != null)
+            //         if (emp != null)
+            //         {
+            //             Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
+            //                                 emp.Id, emp.Name, emp.Gender, emp.Salary);
+            //         }
+
+
+            //          emp = ListOfEmployee.FindLast(kundan => kundan.Gender == "Male");
+
+            //         if (emp != null)
+            //         {
+            //             Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
+            //                                 emp.Id, emp.Name, emp.Gender, emp.Salary);
+            //         }
+
+
+            //         Console.WriteLine();
+
+            //List<Employee> FilterdEmp = ListOfEmployee.FindAll(kundan => kundan.Gender == "Male");
+
+            //         foreach(Employee filemp in FilterdEmp)
+            //         {
+            //     Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
+            //                                  filemp.Id, filemp.Name, filemp.Gender, filemp.Salary);
+            //         }
+
+            //         Console.WriteLine("First Index:"+ ListOfEmployee.FindIndex( x=>x.Gender=="Male"));
+
+            //         Console.WriteLine("Last Index:" + ListOfEmployee.FindLastIndex(x => x.Gender == "Male"));
+
+
+            //         Console.WriteLine();
+
+
+            List<Employee> AnotherListOfEmployee = new List<Employee>();
+
+            AnotherListOfEmployee.Add(emp5);
+            AnotherListOfEmployee.Add(emp6);
+            AnotherListOfEmployee.Add(emp7);
+
+
+            ListOfEmployee.AddRange(AnotherListOfEmployee);
+
+            foreach (Employee e in ListOfEmployee)
             {
                 Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
-                                    emp.Id, emp.Name, emp.Gender, emp.Salary);
+                    e.Id, e.Name, e.Gender, e.Salary);
             }
-
-
-             emp = ListOfEmployee.FindLast(kundan => kundan.Gender == "Male");
-
-            if (emp != null)
-            {
-                Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
-                                    emp.Id, emp.Name, emp.Gender, emp.Salary);
-            }
-
-
             Console.WriteLine();
 
-   List<Employee> FilterdEmp = ListOfEmployee.FindAll(kundan => kundan.Gender == "Male");
+            //List<Employee> initList = ListOfEmployee.GetRange(0, 3);
 
-            foreach(Employee filemp in FilterdEmp)
+            //foreach (Employee e in initList)
+            //{
+            //    Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
+            //        e.Id, e.Name, e.Gender, e.Salary);
+            //}
+            //Console.WriteLine();
+
+            //ListOfEmployee.Remove(emp1);
+
+            //foreach (Employee e in ListOfEmployee)
+            //{
+            //    Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
+            //        e.Id, e.Name, e.Gender, e.Salary);
+            //}
+
+
+
+
+            //ListOfEmployee.RemoveAll(x => x.Gender == "Male");
+
+            //Console.WriteLine();
+
+            //foreach (Employee e in ListOfEmployee)
+            //{
+            //    Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
+            //        e.Id, e.Name, e.Gender, e.Salary);
+            //}
+
+            //Console.WriteLine();
+
+            //ListOfEmployee.RemoveRange(0,2);
+
+            //foreach (Employee e in ListOfEmployee)
+            //{
+            //    Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
+            //        e.Id, e.Name, e.Gender, e.Salary);
+            //}
+
+
+
+            List<Employee> TestListOfEmployee = new List<Employee>();
+
+            TestListOfEmployee.Add(emp8);
+            TestListOfEmployee.Add(emp9);
+            TestListOfEmployee.Add(emp10);
+
+
+            ListOfEmployee.InsertRange(0, TestListOfEmployee);
+
+            //foreach (Employee e in ListOfEmployee)
+            //{
+            //    Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
+            //        e.Id, e.Name, e.Gender, e.Salary);
+            //}
+
+            //ListOfEmployee.Clear();
+
+            //Console.WriteLine("Count:"+ ListOfEmployee.Count);
+
+
+
+            List<int> numberList = new List<int> { 1, 8, 5, 3, 7, 4, 9, 10 };
+
+            Console.WriteLine("Before Sort:");
+            foreach(int i in numberList)
             {
-        Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
-                                     filemp.Id, filemp.Name, filemp.Gender, filemp.Salary);
+                Console.WriteLine(i);
             }
 
-            Console.WriteLine("First Index:"+ ListOfEmployee.FindIndex( x=>x.Gender=="Male"));
 
-            Console.WriteLine("Last Index:" + ListOfEmployee.FindLastIndex(x => x.Gender == "Male"));
+            Console.WriteLine("After Sort:");
+            numberList.Sort();
+            foreach (int i in numberList)
+            {
+                Console.WriteLine(i);
+            }
+
+            Console.WriteLine("Descending Order:");
+            numberList.Reverse();
+            foreach (int i in numberList)
+            {
+                Console.WriteLine(i);
+            }
+
+            List<string> alphabets = new List<string>()
+            {
+            "B",
+            "F",
+            "P",
+            "D",
+            "E",
+            "Z",
+            "A",
+            "C",
+            "L"
+            };
 
 
-            Console.WriteLine();
+            Console.WriteLine("Before Sort:");
+            foreach (string alb in alphabets)
+            {
+                Console.WriteLine(alb);
+            }
+
+            alphabets.Sort();
+
+            Console.WriteLine("After Sort:");
+
+            foreach (string alb in alphabets)
+            {
+                Console.WriteLine(alb);
+            }
+
+            alphabets.Reverse();
+
+            Console.WriteLine("Desending Sort:");
+
+            foreach (string alb in alphabets)
+            {
+                Console.WriteLine(alb);
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
