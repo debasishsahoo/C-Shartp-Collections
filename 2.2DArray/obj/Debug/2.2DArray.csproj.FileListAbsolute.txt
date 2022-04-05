@@ -5,3 +5,4 @@ D:\.netprojects\CollectionsIntro\2.2DArray\obj\Debug\2.2DArray.csproj.SuggestedB
 D:\.netprojects\CollectionsIntro\2.2DArray\obj\Debug\2.2DArray.csproj.CoreCompileInputs.cache
 D:\.netprojects\CollectionsIntro\2.2DArray\obj\Debug\2.2DArray.exe
 D:\.netprojects\CollectionsIntro\2.2DArray\obj\Debug\2.2DArray.pdb
+D:\.netprojects\CollectionsIntro\2.2DArray\obj\Debug\2.2DArray.csproj.AssemblyReference.cache

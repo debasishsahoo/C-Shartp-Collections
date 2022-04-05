@@ -11,7 +11,7 @@ namespace CollectionsIntro
     //ArrayList
     //HashTable
     //Stack and Queue
-    //Geneic Collection
+    //Geneic Collection(list,ListRangeSimpleType,Sort,ComplexType)
     //Dictionary
     internal class Program
     {

@@ -41,6 +41,9 @@ namespace _6.GenericListCillections
         //        Console.ReadKey();
         //    }\
 
+
+
+
         public class Employee
         {
             public int Id { get; set; }
@@ -60,21 +63,21 @@ namespace _6.GenericListCillections
             };
             Employee emp2 = new Employee()
             {
-                Id = 1,
+                Id = 2,
                 Name = "Puja",
                 Gender = "FeMale",
                 Salary = 98000000
             };
             Employee emp3 = new Employee()
             {
-                Id = 1,
+                Id = 3,
                 Name = "Kundan",
                 Gender = "Male",
                 Salary = 95000000
             };
             Employee emp4 = new Employee()
             {
-                Id = 1,
+                Id = 4,
                 Name = "Abir",
                 Gender = "Male",
                 Salary = 92000000
@@ -87,23 +90,96 @@ namespace _6.GenericListCillections
             ListOfEmployee.Add(emp3);
             ListOfEmployee.Add(emp4);
 
-            foreach(Employee e in ListOfEmployee)
+            //foreach (Employee e in ListOfEmployee)
+            //{
+            //    Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
+            //        e.Id, e.Name, e.Gender, e.Salary);
+            //}
+            //Console.WriteLine();
+
+            //ListOfEmployee.Insert(1, emp4);
+
+            //for (int i=0;i< ListOfEmployee.Count;i++)
+            //{
+            //    Console.WriteLine(ListOfEmployee[i].Name);
+
+            //    //Employee Empobj=ListOfEmployee[i];
+            //    //Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
+            //    //    Empobj.Id, Empobj.Name, Empobj.Gender, Empobj.Salary);
+            //}
+
+            //Console.WriteLine();
+            //Console.WriteLine("Index of emp4:"+ ListOfEmployee.IndexOf(emp4));
+
+
+            //if(ListOfEmployee.Contains(emp2))
+            //{
+            //    Console.WriteLine("Emp2 is in the List"); 
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Emp2 is not in the List");
+            //}
+
+
+
+            //if (ListOfEmployee.Exists(zubair => zubair.Name.StartsWith("P")))
+            //{
+            //    Console.WriteLine("Yes Emp is there");
+            //}
+            //else 
+            //{
+            //    Console.WriteLine("No Emp is not there");
+            //}
+
+            Employee emp;
+
+            emp = ListOfEmployee.Find(kundan=> kundan.Gender=="Male");
+
+            if (emp != null)
             {
                 Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
-                    e.Id,e.Name,e.Gender,e.Salary);
+                                    emp.Id, emp.Name, emp.Gender, emp.Salary);
             }
+
+
+             emp = ListOfEmployee.FindLast(kundan => kundan.Gender == "Male");
+
+            if (emp != null)
+            {
+                Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
+                                    emp.Id, emp.Name, emp.Gender, emp.Salary);
+            }
+
+
+            Console.WriteLine();
+
+   List<Employee> FilterdEmp = ListOfEmployee.FindAll(kundan => kundan.Gender == "Male");
+
+            foreach(Employee filemp in FilterdEmp)
+            {
+        Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
+                                     filemp.Id, filemp.Name, filemp.Gender, filemp.Salary);
+            }
+
+            Console.WriteLine("First Index:"+ ListOfEmployee.FindIndex( x=>x.Gender=="Male"));
+
+            Console.WriteLine("Last Index:" + ListOfEmployee.FindLastIndex(x => x.Gender == "Male"));
+
+
+            Console.WriteLine();
+
+
+
+
+
+
 
             Console.WriteLine();
             Console.ReadKey();
-
-
-
+            }
 
 
 
         }
-
-
-
-    }
 }
