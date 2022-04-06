@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -112,7 +113,7 @@ namespace _7.Complextypesort
                 Id = 10,
                 Name = "Arnab",
                 Gender = "Male",
-                Salary = 1000
+                Salary = 100
             };
 
             List<Employee> ListOfEmployee = new List<Employee>();
@@ -128,33 +129,54 @@ namespace _7.Complextypesort
             ListOfEmployee.Add(emp9);
             ListOfEmployee.Add(emp10);
 
-           foreach(Employee e in ListOfEmployee)
-            {
-          Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
-                   e.Id, e.Name, e.Gender, e.Salary);
-            }
+            // foreach(Employee e in ListOfEmployee)
+            //  {
+            //Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
+            //         e.Id, e.Name, e.Gender, e.Salary);
+            //  }
 
-            Console.WriteLine();
+            //  Console.WriteLine();
 
-            ListOfEmployee.Sort();
+            //  ListOfEmployee.Sort();
 
-            foreach (Employee e in ListOfEmployee)
-            {
-                Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
-                         e.Id, e.Name, e.Gender, e.Salary);
-            }
+            //  foreach (Employee e in ListOfEmployee)
+            //  {
+            //      Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
+            //               e.Id, e.Name, e.Gender, e.Salary);
+            //  }
 
-            Console.WriteLine();
+            //  Console.WriteLine();
 
-            SortByName SBN = new SortByName();
+            //  SortByName SBN = new SortByName();
 
-            ListOfEmployee.Sort(SBN);
+            //  ListOfEmployee.Sort(SBN);
 
-            foreach (Employee e in ListOfEmployee)
-            {
-                Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
-                         e.Id, e.Name, e.Gender, e.Salary);
-            }
+            //  foreach (Employee e in ListOfEmployee)
+            //  {
+            //      Console.WriteLine("ID={0},Name={1},Gender={2},Salary={3}",
+            //               e.Id, e.Name, e.Gender, e.Salary);
+            //  }
+
+            Console.WriteLine("Are All Salaries grater then 800:"+ListOfEmployee.TrueForAll(x=>x.Salary>800));
+
+
+         ReadOnlyCollection<Employee> ROE = ListOfEmployee.AsReadOnly();
+
+
+            Console.WriteLine("Total Count:"+ROE.Count);
+
+            Console.WriteLine("Capacity of List:"+ListOfEmployee.Capacity);
+
+            ListOfEmployee.TrimExcess();
+
+            Console.WriteLine("Capacity of List after Trim :" + ListOfEmployee.Capacity);
+
+
+
+
+
+
+
 
             Console.ReadKey();
 
