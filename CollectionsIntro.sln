@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.Generic_Collections", "5.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.GenericListCillections", "6.GenericListCillections\6.GenericListCillections.csproj", "{DFCFC174-5400-4ED3-B6CD-E5E4CA3F2E81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.Complextypesort", "7.Complextypesort\7.Complextypesort.csproj", "{6DB1F182-87EB-4DED-A900-0F8779597AF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{DFCFC174-5400-4ED3-B6CD-E5E4CA3F2E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFCFC174-5400-4ED3-B6CD-E5E4CA3F2E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFCFC174-5400-4ED3-B6CD-E5E4CA3F2E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB1F182-87EB-4DED-A900-0F8779597AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB1F182-87EB-4DED-A900-0F8779597AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB1F182-87EB-4DED-A900-0F8779597AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB1F182-87EB-4DED-A900-0F8779597AF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

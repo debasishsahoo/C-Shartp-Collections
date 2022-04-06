@@ -1,0 +1,8 @@
+D:\.netprojects\CollectionsIntro\7.Complextypesort\obj\Debug\7.Complextypesort.csproj.AssemblyReference.cache
+D:\.netprojects\CollectionsIntro\7.Complextypesort\obj\Debug\7.Complextypesort.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\CollectionsIntro\7.Complextypesort\obj\Debug\7.Complextypesort.csproj.CoreCompileInputs.cache
+D:\.netprojects\CollectionsIntro\7.Complextypesort\bin\Debug\7.Complextypesort.exe.config
+D:\.netprojects\CollectionsIntro\7.Complextypesort\bin\Debug\7.Complextypesort.exe
+D:\.netprojects\CollectionsIntro\7.Complextypesort\bin\Debug\7.Complextypesort.pdb
+D:\.netprojects\CollectionsIntro\7.Complextypesort\obj\Debug\7.Complextypesort.exe
+D:\.netprojects\CollectionsIntro\7.Complextypesort\obj\Debug\7.Complextypesort.pdb
