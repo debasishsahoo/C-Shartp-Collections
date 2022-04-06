@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.GenericListCillections", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.Complextypesort", "7.Complextypesort\7.Complextypesort.csproj", "{6DB1F182-87EB-4DED-A900-0F8779597AF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.Dict", "8.Dict\8.Dict.csproj", "{9F701409-14AD-40DC-9D5F-8F3800EA165C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{6DB1F182-87EB-4DED-A900-0F8779597AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DB1F182-87EB-4DED-A900-0F8779597AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DB1F182-87EB-4DED-A900-0F8779597AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F701409-14AD-40DC-9D5F-8F3800EA165C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F701409-14AD-40DC-9D5F-8F3800EA165C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F701409-14AD-40DC-9D5F-8F3800EA165C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F701409-14AD-40DC-9D5F-8F3800EA165C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

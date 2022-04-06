@@ -1,0 +1,8 @@
+D:\.netprojects\CollectionsIntro\8.Dict\bin\Debug\8.Dict.exe.config
+D:\.netprojects\CollectionsIntro\8.Dict\bin\Debug\8.Dict.exe
+D:\.netprojects\CollectionsIntro\8.Dict\bin\Debug\8.Dict.pdb
+D:\.netprojects\CollectionsIntro\8.Dict\obj\Debug\8.Dict.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\CollectionsIntro\8.Dict\obj\Debug\8.Dict.csproj.CoreCompileInputs.cache
+D:\.netprojects\CollectionsIntro\8.Dict\obj\Debug\8.Dict.exe
+D:\.netprojects\CollectionsIntro\8.Dict\obj\Debug\8.Dict.pdb
+D:\.netprojects\CollectionsIntro\8.Dict\obj\Debug\8.Dict.csproj.AssemblyReference.cache
